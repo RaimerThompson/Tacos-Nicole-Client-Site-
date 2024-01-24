@@ -1,8 +1,8 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 2rem;
+  letter-spacing: 2px;
   color: #55765A;
   transition: color .4s ease-in-out;
   font-family: Tacos;
@@ -25,7 +25,7 @@ ul li a.active{
   display: flex;
   right: 0;
   top: 0;
-  gap: 2rem;
+  gap: 6rem;
   list-style: none;
   text-decoration: none;
   position: relative;
@@ -42,7 +42,7 @@ ul li a.active{
 }
 
 .header__logo{
-  font-size: 1rem;
+  font-size: 4rem;
   font-weight: 100;
   letter-spacing: 1px;
   font-family: Tacos;
@@ -50,16 +50,19 @@ ul li a.active{
 }
 
 .header__mid-logo{
-  width: 6rem;
+  width: 16rem;
   background-color: transparent;
 }
 
 
 #nav{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   position: fixed; 
   align-items: center;
+  text-align: center;
+  gap: 2rem;
   top: 0;
   right: 0;
   left:0;
