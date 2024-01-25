@@ -1,3 +1,7 @@
+.header{
+  position: relative;
+}
+
 .scrolled ul li a{
   text-decoration: none;
   list-style: none;
@@ -42,6 +46,8 @@ ul li a:hover{
   letter-spacing: 0px;
   font-family: Tacos;
   color: #55765A;
+  transition: .2s;
+
 }
 
 .header__logo:hover{
@@ -51,6 +57,8 @@ ul li a:hover{
 .scrolled .header__mid-logo{
   width: 6rem;
   background-color: transparent;
+  transition: .2s;
+
 }
 
 .scrolled .home__information{
@@ -65,13 +73,13 @@ ul li a:hover{
   position: relative;
 }
 
-.scrolled .socials{
+ /* .scrolled .socials{
   position: fixed;
   top: 1.5rem;
   right: 2rem;
   cursor: pointer;
-  transition: position 3s;
-}
+  transition: .2s;
+}  */
 
 .socials a{
   color: #55765A;
@@ -104,7 +112,7 @@ ul li a:hover{
   background-color: #D6E5B3;
   transition: 
   height 1ms ease-in,
-  position .5s ease-in;
+  position .5s ease-out;
 }
 
 
@@ -144,12 +152,18 @@ ul li a:hover{
 .header__mid-logo{
   width: 16rem;
   background-color: transparent;
+  border-radius: 50%;
+}
+.socials{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 #nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute ; 
+  position: relative ; 
   align-items: center;
   text-align: center;
   margin-left: auto;
@@ -162,14 +176,11 @@ ul li a:hover{
   z-index: 10;
   padding: 2rem 2rem;
   background-color: #D6E5B3;
-  transition: background-color .4s ease-in-out,
+  /* transition: background-color .4s ease-in-out,
   height 1s ease-in-out,
-  position .5s ease-in-out;
+  position .5s ease-in-out; */
+  transition: .5s ease;
 } 
-.socials{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
+
 
 
