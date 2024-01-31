@@ -2,6 +2,12 @@
   font-family: Tacos;
   src: url(/fonts/Bay\ Tavern\ S\ Regular.otf);
 }
+@font-face {
+  font-family: Mexi;
+  src: url(/fonts/mexican-tequila.regular.ttf);
+}
+
+
 
 
 * {

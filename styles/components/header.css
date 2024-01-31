@@ -1,197 +1,114 @@
-.header{
-  position: relative;
-}
-
 ul li a{
   text-decoration: none;
   list-style: none;
   font-size: 1rem;
-  letter-spacing: 2px;
-  color: #55765A;
+  letter-spacing: 3px;
+  color: white;
   transition: color .1s ease-in-out;
   font-family: Tacos;
 }
 
 ul li a:hover{
-  color: #df3a0c9c;
+  /* color: #df3a0c9c; */
+  color: rgb(225, 80, 40);
+}
+
+.header{
+  position: relative;
+}
+
+#nav{
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  background-color: #55765A;
+  background-color: rgb(50, 90, 50, .85);
+  z-index: 10;
+  top: 0;
+  left: 0;
+  padding-bottom: 2rem;
 }
 
 .header__menu{
   display: flex;
-  right: 0;
-  top: 0;
   gap: 1rem;
-  list-style: none;
-  text-decoration: none;
-  position: fixed;
-  left: 1.5rem;
-  top: rem;
 }
 
 .header__menu-logo{
-  display: flex;
-  list-style: none;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* list-style: none;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
-  text-align: center;
+  text-align: center; */
 }
 
 .header__logo{
-  position: relative;
-  top: 0;
-  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 2.5rem;
   font-weight: 100;
-  letter-spacing: 0px;
+  letter-spacing: 4px;
   font-family: Tacos;
-  color: #55765A;
+  color: white;
   transition: .2s;
-
+  cursor:default  ;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header__logo:hover{
-  color: #55765A;
+  color: white;
 }
 
 .header__mid-logo{
-  width: 6rem;
+  width: 7rem;
   background-color: transparent;
   transition: .2s;
+  position: absolute;
+  left: .25rem;
+  top: .25rem;
 }
 
-.home__information{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 100;
+
+.header__menu-right{
   display: none;
-  opacity: 0;
-  color: red;
 }
 
-.header__container{
-  position: relative;
-}
-
- .socials{
-  position: fixed;
-  top: 1.5rem;
-  right: 2rem;
-  cursor: pointer;
-  transition: .2s;
-  z-index: 2;
-  /* border: 2px dotted red; */
-} 
-
-
-
-.socials a{
-  color: white;
-  font-size: 1.75rem;
-  margin-right: 8px;
-  right: 0;
-  z-index: 2;
-}
-
-.socials a:hover{
-  color: #df3a0c9c;
-}
-
-
-
-
-#nav{
+#navbar{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: fixed ; 
-  align-items: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 100rem;
-  gap: 0;
-  top: 0;
-  right: 0;
-  left:0;
-  padding: 2rem 2rem;
-  /* background-color: #D6E5B3; */
-  transition: 
-  height 1ms ease-in,
-  position .5s ease-out;
+  flex-direction: row;
+  align-items: inherit;
+  justify-content: normal;
+  gap: 4rem;
+  z-index: 100;
+  position: absolute;
+  bottom: 0rem;
+  list-style: none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
-/* #navbar{
-  position: sticky;
-  top: 1rem;
-} */
-
-  ul li a{
-  text-decoration: none;
+.socials li{
   list-style: none;
+}
+
+.socials li a{
   font-size: 1rem;
-  letter-spacing: 2px;
-  color: white;
-  transition: color .4s ease-in-out;
-  font-family: Tacos;
-} 
-.header__menu{
+}
+
+.socials{
+  position: absolute;
   display: flex;
-  right: 0;
-  top: 6rem;
-  gap: 1rem;
-  font-size: 2px;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
-  text-decoration: none;
-  position: fixed;
-} 
-.home__information{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 100;
-  display: none;
+  gap: .5em;
+  top: 1rem;
+  right: 1rem;
 }
-.header__logo{
-  position: relative;
-  top: 0px;
-  font-size: 2rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-  font-family: Tacos;
-  color: white;
-}
-.header__mid-logo{
-  width: 5rem;
-  background-color: transparent;
-  border-radius: 50%;
-}
-
-#nav{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: fixed ; 
-  align-items: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 9rem;
-  /* gap: 2rem; */
-  top: 0;
-  right: 0;
-  left:0;
-  z-index: 10;
-  padding: 2rem 2rem;
-  background-color: #55765A;
-
-  transition: .5s ease;
-}  
-
-.middle__logo{
-  position: fixed;
-  top: 0;
-}
-
 
 

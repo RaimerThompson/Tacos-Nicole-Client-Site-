@@ -1,0 +1,25 @@
+.contact{
+  position: relative;
+  text-align: center;
+  background-color: rgb(50, 90, 50, .85);
+  color: white;
+
+}
+
+.contact__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+}
+
+.contact__title,
+.contact__sub-title{
+  letter-spacing: 1px;
+  font-family: Mexi;
+}
+
+.contact__map{
+  width: 100px;
+}
