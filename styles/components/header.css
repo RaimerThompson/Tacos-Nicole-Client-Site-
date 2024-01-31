@@ -8,6 +8,10 @@ ul li a{
   font-family: Tacos;
 }
 
+ul li{
+  list-style: none;
+}
+
 ul li a:hover{
   /* color: #df3a0c9c; */
   color: rgb(225, 80, 40);

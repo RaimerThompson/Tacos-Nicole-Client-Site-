@@ -3,7 +3,7 @@
   text-align: center;
   background-color: rgb(50, 90, 50, .85);
   color: white;
-
+  padding: 2rem;
 }
 
 .contact__container{
@@ -14,10 +14,14 @@
   color: white;
 }
 
-.contact__title,
 .contact__sub-title{
   letter-spacing: 1px;
   font-family: Mexi;
+}
+
+.contact__title{
+  letter-spacing: 4px;
+  font-family: Tacos;
 }
 
 .contact__map{

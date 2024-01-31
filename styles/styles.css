@@ -6,6 +6,11 @@
   font-family: Mexi;
   src: url(/fonts/mexican-tequila.regular.ttf);
 }
+@font-face {
+  font-family: Custom;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+
 
 
 
@@ -24,6 +29,7 @@ html {
 body{
   /* background-color: rgb(244, 229, 206, .3); */
   background-color: rgb(245, 240, 230);
+  font-family: Custom;
 }
 
 

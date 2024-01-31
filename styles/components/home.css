@@ -11,14 +11,26 @@
   gap: 2em;
 }
 
+main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  gap: 1em;
+}
+
+.home__text{
+  flex: 1;
+}
+
 .home__banner{
   /* height: 100vh; */
-  width: 500px;
-  height: 200px;
+  /* width: 500px; */
+  flex: 1;
+  /* height: 200px; */
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2em;
 }
 
