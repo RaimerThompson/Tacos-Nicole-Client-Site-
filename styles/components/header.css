@@ -38,17 +38,6 @@ ul li a:hover{
   gap: 1rem;
 }
 
-.header__menu-logo{
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* list-style: none;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  text-align: center; */
-}
-
 .header__logo{
   position: absolute;
   top: 1rem;
@@ -90,7 +79,7 @@ ul li a:hover{
   flex-direction: row;
   align-items: inherit;
   justify-content: normal;
-  gap: 4rem;
+  gap: 8rem;
   z-index: 100;
   position: absolute;
   bottom: 0rem;
@@ -104,7 +93,7 @@ ul li a:hover{
 }
 
 .socials li a{
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 .socials{

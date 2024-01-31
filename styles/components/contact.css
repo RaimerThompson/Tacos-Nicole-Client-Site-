@@ -17,11 +17,13 @@
 .contact__sub-title{
   letter-spacing: 1px;
   font-family: Mexi;
+  font-size: 2rem;
 }
 
 .contact__title{
   letter-spacing: 4px;
   font-family: Tacos;
+  font-size: 2rem;
 }
 
 .contact__map{
