@@ -1,8 +1,20 @@
 .menu{
-  padding: 1rem 2rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 4em;
+} 
+.menu2{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+}
+.menu3{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
 }
 
 .menu__title{
@@ -12,7 +24,7 @@
   color: rgb(167, 63, 29);
   font-size: 2rem;
   padding-bottom: 6px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .menu__items{
@@ -29,6 +41,18 @@
 
 }
 
+.para{
+  width: 260px;
+}
+
+.lechu{
+  width: 380px;
+}
+
 .burrito{
   margin-top: 2rem;
+}
+
+.taco{
+  text-align: center;
 }
