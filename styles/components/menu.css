@@ -96,3 +96,130 @@
   justify-content: center;
   gap: 3em;
 }
+
+.menu__container,
+.menu__container2,
+.menu__container3,
+.menu__container4,
+.menu__container5,
+.menu__container6,
+.menu__container7,
+.menu__container8,
+.menu__container9,
+.menu__container10{
+  margin: 0 auto;
+}
+
+.menu,
+.menu2,
+.menu3,
+.menu4,
+.menu5{
+  flex-direction: column;
+}
+
+
+/* sm mobile */
+/* @media (min-width: 325px) {} */
+
+/* md mobile */
+/* @media (min-width: 400px) {} */
+
+/* lg mobile */
+/* @media (min-width: 475px) {} */
+
+/* sm Tablet */
+/* @media (min-width: 640px) {} */
+
+/* Tablet*/
+@media (min-width: 768px) {
+  .menu,
+.menu2,
+.menu3,
+.menu4,
+.menu5{
+  flex-direction: row;
+}
+
+.menu{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+} 
+.menu2{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.menu3{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+}
+.menu4{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+}
+.menu5{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+}
+
+
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .menu{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  } 
+  .menu2{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  .menu3{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  .menu4{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  .menu5{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  
+}
+
+/* xL */
+@media (min-width: 1288px) {
+  .menu,
+  .menu2,
+  .menu3,
+  .menu4,
+  .menu5{
+    padding: 2rem 10rem;
+  }
+}
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
