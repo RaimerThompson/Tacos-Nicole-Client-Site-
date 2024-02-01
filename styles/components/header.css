@@ -13,7 +13,6 @@ ul li{
 }
 
 ul li a:hover{
-  /* color: #df3a0c9c; */
   color: rgb(225, 80, 40);
 }
 
@@ -25,7 +24,7 @@ ul li a:hover{
   display: flex;
   justify-content: center;
   height: 8rem;
-  background-color: #55765A;
+  /* background-color: #55765A; */
   background-color: rgb(50, 90, 50, .85);
   z-index: 10;
   top: 0;

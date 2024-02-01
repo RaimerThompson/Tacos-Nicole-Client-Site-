@@ -1,9 +1,25 @@
 .contact{
   position: relative;
   text-align: center;
-  background-color: rgb(50, 90, 50, .85);
+  background-color: rgb(50, 90, 50);
   color: white;
   padding: 2rem;
+  cursor: pointer;
+}
+
+.contact:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
+  background-image: url('/images/map-taco-with-logo.jpg');
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: cover;
 }
 
 .contact__container{
@@ -29,3 +45,45 @@
 .contact__map{
   width: 100px;
 }
+
+.footer{
+  padding: 1rem 2rem .5rem 2rem;
+  color: rgb(50, 90, 50);
+}
+
+.credit a{
+  text-decoration: none;
+  color: inherit;
+  font-family: Tacos;
+  font-weight: 100;
+}
+
+.credit__name{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.credit__name:hover{
+  color: rgb(225, 80, 40);
+}
+
+
+.footer__copyright{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials{
+  display: flex;
+  gap: 4px;
+}
+
+.footer__icons a{
+  color: rgb(50, 90, 50);
+}
+
+.footer__icons a:hover{
+  color: rgb(225, 80, 40);
+}
+
+
