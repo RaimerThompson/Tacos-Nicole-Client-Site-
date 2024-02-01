@@ -64,7 +64,9 @@
 }
 
 .credit__name:hover{
-  color: rgb(225, 80, 40);
+  /* color: rgb(225, 80, 40); */
+  color: rgb(225, 150, 40);
+
 }
 
 
@@ -83,7 +85,9 @@
 }
 
 .footer__icons a:hover{
-  color: rgb(225, 80, 40);
+  /* color: rgb(225, 80, 40); */
+  color: rgb(225, 150, 40);
+
 }
 
 
