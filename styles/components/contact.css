@@ -27,8 +27,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
   color: white;
+  padding: 2rem 0;
   gap: 2em;
 }
 
@@ -100,7 +100,13 @@
 /* @media (min-width: 325px) {} */
 
 /* md mobile */
-/* @media (min-width: 400px) {} */
+@media (min-width: 400px) {
+  .contact__container{
+  gap: 2em;
+  padding: 2rem;
+
+  }
+}
 
 /* lg mobile */
 /* @media (min-width: 475px) {} */

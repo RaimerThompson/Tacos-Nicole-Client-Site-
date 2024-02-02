@@ -73,10 +73,14 @@
 
 .para{
   width: 260px;
+  letter-spacing: -1px;
+  font-weight: 900;
 }
 
 .lechu{
-  width: 280px;
+  width: 260px;
+  letter-spacing: -1px;
+  font-weight: 900;
 }
 
 .agua{
@@ -96,10 +100,11 @@
   justify-content: center;
   gap: 1.5em;
 }
+
 .drinks{
   display: flex;
   justify-content: center;
-  gap: 3em;
+  gap: 1.5em;
 }
 
 .menu__container,
@@ -130,13 +135,19 @@
 /* md mobile */
 @media (min-width: 400px) {
   .lechu{
-    width: 380px;
+    width: 320px;
   }
 
   .menu__items{
     width: initial;
     font-weight: 900;
     letter-spacing: -.5px;
+  }
+
+  .drinks{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
   }
   
 }
