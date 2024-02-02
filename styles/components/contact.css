@@ -24,10 +24,12 @@
 
 .contact__container{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
   color: white;
+  gap: 2em;
 }
 
 .contact__sub-title{
@@ -73,6 +75,8 @@
 .footer__copyright{
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer__socials{
@@ -102,7 +106,21 @@
 /* @media (min-width: 475px) {} */
 
 /* sm Tablet */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+  .contact__container{
+   flex-direction: row;
+   gap: 6em;
+   justify-content: center;
+   padding: 2rem 4rem;
+  }
+
+  .footer__copyright{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+}
 
 /* Tablet*/
 /* @media (min-width: 768px) {} */

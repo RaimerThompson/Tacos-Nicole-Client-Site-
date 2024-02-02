@@ -59,6 +59,7 @@
 .menu__items{
   font-weight: 900;
   letter-spacing: -.5px;
+  width: 290px;
 }
 
 .money{
@@ -75,7 +76,11 @@
 }
 
 .lechu{
-  width: 380px;
+  width: 280px;
+}
+
+.agua{
+  width: initial;
 }
 
 .burrito{
@@ -123,7 +128,18 @@
 /* @media (min-width: 325px) {} */
 
 /* md mobile */
-/* @media (min-width: 400px) {} */
+@media (min-width: 400px) {
+  .lechu{
+    width: 380px;
+  }
+
+  .menu__items{
+    width: initial;
+    font-weight: 900;
+    letter-spacing: -.5px;
+  }
+  
+}
 
 /* lg mobile */
 /* @media (min-width: 475px) {} */
@@ -134,10 +150,10 @@
 /* Tablet*/
 @media (min-width: 768px) {
   .menu,
-.menu2,
-.menu3,
-.menu4,
-.menu5{
+  .menu2,
+  .menu3,
+  .menu4,
+  .menu5{
   flex-direction: row;
 }
 
