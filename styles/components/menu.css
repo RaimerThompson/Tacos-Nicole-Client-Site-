@@ -35,7 +35,7 @@
   font-family: Tacos;
   color: rgb(50, 90, 50);
   font-size: 2rem;
-  padding: 3rem;
+  padding: 3rem 0rem;
   text-align: center;
 }
 
@@ -53,12 +53,20 @@
   color: rgb(167, 63, 29);
   font-size: 2rem;
   padding-bottom: 6px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .menu__items{
   font-weight: 900;
   letter-spacing: -.5px;
+  text-align: center;
+  font-size: 12.7px;
+}
+
+.carne{
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 12.7px;
 }
 
 .money{
@@ -67,19 +75,20 @@
 
 .menu__container{
   margin-bottom: 2rem;
-
 }
 
 .para{
   width: 260px;
   letter-spacing: -1px;
   font-weight: 900;
+  text-align: center;
 }
 
 .lechu{
-  width: 260px;
+  /* width: 260px; */
   letter-spacing: -1px;
   font-weight: 900;
+  text-align: center;
 }
 
 .agua{
@@ -148,7 +157,11 @@
     width: initial;
     font-weight: 900;
     letter-spacing: -.5px;
+    font-size: 1rem;
+  }
 
+  .carne{
+    font-size: 1rem;
   }
 
   .drinks{
@@ -180,6 +193,7 @@
   display: flex;
   justify-content: center;
   gap: 1em;
+  flex-wrap: wrap;
 } 
 .menu2{
   padding: 2rem;
@@ -188,16 +202,16 @@
   gap: 1em;
 }
 .menu3{
-  padding: 2rem;
+  padding: 2rem 3rem;
   display: flex;
   justify-content: center;
-  gap: 6em;
+  gap: 3em;
 }
 .menu4{
-  padding: 2rem;
+  padding: 2rem 3rem;
   display: flex;
   justify-content: center;
-  gap: 6em;
+  gap: 4em;
 }
 .menu5{
   padding: 2rem;
@@ -207,10 +221,12 @@
 }
 
 .menu__items{
-  width: 290px;
-
+  width: initial;
 }
 
+.item{
+  width: 265px;
+}
 
 }
 
@@ -245,6 +261,10 @@
     display: flex;
     justify-content: center;
     gap: 4em;
+  }
+
+  .item{
+    width: initial;
   }
   
 }
