@@ -59,7 +59,6 @@
 .menu__items{
   font-weight: 900;
   letter-spacing: -.5px;
-  width: 290px;
 }
 
 .money{
@@ -84,7 +83,9 @@
 }
 
 .agua{
-  width: initial;
+  /* width: initial; */
+  letter-spacing: -1px;
+  font-weight: 900;
 }
 
 .burrito{
@@ -130,7 +131,12 @@
 
 
 /* sm mobile */
-/* @media (min-width: 325px) {} */
+@media (min-width: 325px) {
+  .menu__items{
+    font-weight: 900;
+    letter-spacing: -.5px;
+  }
+}
 
 /* md mobile */
 @media (min-width: 400px) {
@@ -142,6 +148,7 @@
     width: initial;
     font-weight: 900;
     letter-spacing: -.5px;
+
   }
 
   .drinks{
@@ -197,6 +204,11 @@
   display: flex;
   justify-content: center;
   gap: 6em;
+}
+
+.menu__items{
+  width: 290px;
+
 }
 
 
