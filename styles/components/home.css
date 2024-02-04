@@ -21,6 +21,13 @@ main{
 
 .home__text{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0rem;
+}
+
+.title__text{
+  line-height: 3rem;
 }
 
 .home__banner{
